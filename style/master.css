@@ -1,0 +1,402 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+* {box-sizing:border-box}
+
+
+.slider-box{
+  width: 100%;
+  height: 600px;
+  padding: 3px;
+  text-align: center;
+}
+#sb .bx{
+  width: 32%;
+  height: 80%;
+  display: inline-block;
+}
+@media screen and (max-width: 700px)
+and (min-width:0){
+  .slider-box{
+    height: auto!important;
+    margin-top: 100px;
+  }
+  #sb .bx{
+    width: 32%;
+    margin: auto;
+    height: 80%;
+    display: inline-block;
+    height: 202px;
+  }
+}
+#sb img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+/* WARNING: mobile screen - header */
+@media screen and (max-width: 660px)
+and (min-width: 0px){
+  #links, #links-social{
+    display: none!important;
+  }
+}
+#nb-header{
+  padding: 10px 0;
+  overflow: hidden;
+}
+header{
+  overflow: hidden;
+}
+#nb-logo{
+  display: inline-block;
+  width: 150px;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  height: 100px;
+  background-image: url(../img/logo.jpg);
+  background-size: 99px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#nb-logo-txt{
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #8c0a63;
+  font-family: 'Alex Brush', cursive; /* LOGO FONT FAMILY */
+  font-size: 130%;
+}
+
+header li a{
+  color: #8c0a63;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  letter-spacing: 1px;
+}
+#links{
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+  margin-left: 12px;
+}
+@media screen and (max-width: 565px)
+and (min-width: 0px){
+  #links{
+    display: none;
+  }
+}
+#links li{
+  display: inline-block;
+  padding: 3px;
+  margin-left: 3px;
+}
+#links-social{
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 565px)
+and (min-width: 0px){
+  #links-social{
+    margin-top: 47px;
+  }
+}
+#links-social li{
+  display: inline-block;
+  padding: 3px;
+  margin-left: 3px;
+}
+/* WARNING: menu */
+.menu-nb {
+  display:block;
+  width: 80px;
+  cursor: pointer;
+  margin: 20px;
+  margin-top: 50px;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.change .nb-menu{
+  display: hide;
+}
+.bar1, .bar2, .bar3{
+  background: #8c0a63;
+}
+.nb-menu{
+  overflow: hidden;
+}
+.nb-menu ul{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.nb-menu ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+#links-social-mb{
+  margin-top: 20px;
+}
+#links-social-mb li{
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.row-1{
+  overflow:hidden;
+}
+.row-1 .nb-col-2{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+@media screen and (max-width: 565px)
+and (min-width: 0px){
+  .row-1 .nb-col-2{
+    width: 100%;
+  }
+}
+#r1-1{
+  background-image: url(../img/col-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 380px;
+}
+.pop{
+  width: 85%;
+  margin: auto;
+  right: 0;
+  left: 0;
+  margin-top: 11%;
+}
+@media screen and (max-width: 565px)
+and (min-width: 0px){
+  .pop{
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 385px)
+and (min-width: 0px){
+  .pop{
+    width: 280px;
+  }
+  .pop h3{
+    font-size: 110%;
+  }
+}
+h3{
+  font-family: 'Tenali Ramakrishna', sans-serif;
+}
+.pop h3{
+  font-size: 48px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family:'Playfair Display', serif!important;
+}
+@media screen and (max-width: 898px)
+and (min-width: 715px){
+  .pop h3{
+    font-size: 57px;
+  }
+}
+@media screen and (max-width: 715px)
+and (min-width: 0px){
+  .pop h3{
+    font-size: 47px;
+  }
+}
+.pop{
+  font-size: 25px;
+}
+#r1-1-txt p{
+  text-align: left;
+}
+
+
+.row-2{
+  width: 100%;
+  overflow:hidden;
+  padding: 20px 0;
+}
+
+.title{
+  position: relative;
+  text-align: center;
+  color: #8c0a63;
+}
+.title hr{
+  position: absolute;
+  width: 39%;
+  top: 0;
+}
+#lf{
+  left: 3%;
+}
+#rt{
+  right: 3%;
+}
+
+/* WARNING: PRODUCT */
+#product-row-1{
+  position: relative;
+  overflow: hidden;
+}
+.product{
+  float: left;
+  width: 49%;
+}
+.prod{
+  cursor: pointer;
+  width: 90%;
+  margin: auto;
+}
+.prod img{
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+#prod-cat{
+  text-align: center;
+  font-size: 120%;
+}
+.prod-details{
+  text-align: center;
+}
+#prod-price{
+  display: block;
+}
+
+/* HEADING FONTS */
+.fira{
+  font-family: 'Fira Code', monospace;
+}
+.lora{
+  font-family: 'Lora', serif;
+}
+.roboto{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.pnk{
+  color: #8c0a63;
+}
+
+footer{
+  padding: 75px 5%;
+  background: #191919;
+  overflow: hidden;
+}
+footer h3{
+  color: #757575;
+}
+footer i{
+  color: #757575;
+}
+.f-email{
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  outline: none;
+  color: #fff;
+}
+.f-submit-btn{
+  background: #fff;
+  font-size: 25px;
+  color: #000;
+  border: none;
+  width: 35px;
+  margin-left: 5px;
+}
+.f-col-2{
+  float: left;
+  width: 39%;
+}
+.fc2-bx{
+  float: right;
+  width: 20%;
+}
+.fc2-bx ul li{
+  list-style: none;
+}
+footer p{
+  padding: 0;
+  margin: 0;
+  color: #3b3b3b;
+}
+.fg{
+  overflow: hidden;
+  margin-top: 5px;
+}
+.fg input{
+  float: left;
+  display: block;
+}
+.credentials{
+  padding: 10px;
+}
+.f-email{
+  padding: 5px;
+}
+/* WARNING: FOOTER BECOMES ONE IN REGARDS TO SCREEN SIZE */
+@media screen and (max-width: 886px)
+and (min-width: 0){
+  .f-col-2{
+    float: none;
+    width: 95%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .fc2-bx{
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    float: none;
+    width: 95%;
+  }
+}
+/* WARNING: PRODUCT BECOMES ONE IN REGARDS TO SCREEN SIZE */
+@media screen and (max-width: 400px)
+and (min-width: 0){
+  .product{
+    margin-top: 20px;
+    width: 95%;
+  }
+}
+
+/* WARNING: PRODUCT BECOMES 3 IN REGARDS TO SCREEN SIZE */
+@media screen and (min-width: 1000px)
+and (max-width: 90000000px){
+  .product{
+    margin-top: 20px;
+    width: 25%;
+  }
+  .prod-name{
+    display: block;
+    height: 50px;
+  }
+}

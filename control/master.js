@@ -24,7 +24,7 @@ function openProduct2(){
 }
 function openProduct3(){
   window.location = 'Fortuna-Diamond-Ring.html';
-}
+}1
 function openProduct4(){
   window.location = 'Nova-Diamond-Ring.html';
 }
@@ -47,7 +47,7 @@ function openProduct10(){
   window.location = 'Flower-Diamond-Pendant.html';
 }
 function openProduct11(){
-  window.location = 'Gieselle-Diamond-Pendant.html';
+  window.location = 'Giselle-Diamond-Pendant.html';
 }
 function openProduct12(){
   window.location = 'Diamond-Twist-Pendant.html';

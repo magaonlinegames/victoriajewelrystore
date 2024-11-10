@@ -47,7 +47,7 @@ function openProduct10(){
   window.location = 'Flower-Diamond-Pendant.html';
 }
 function openProduct11(){
-  window.location = 'Giesel-Diamond-Pendant.html';
+  window.location = 'Gieselle-Diamond-Pendant.html';
 }
 function openProduct12(){
   window.location = 'Diamond-Twist-Pendant.html';
